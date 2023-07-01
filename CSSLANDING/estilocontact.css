@@ -1,0 +1,75 @@
+/* Página de Contacto */
+html{
+    background: url(../imagenes/MENUNCITO.jpg);
+}
+h1{
+    color: #ff9100;
+}
+
+h2{
+    color: #ff9100;
+}
+
+h3{
+    color: #ff9100;
+    
+}
+
+p{
+    color: #e5e5e5;
+}
+
+.hero-page{
+    background: linear-gradient(to bottom, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(../imagenes/fondito.jpg) center;
+    background-size: cover;
+    height: 150px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrap-hero-page{
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .section{
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 1rem;
+  }
+  
+  .wrap-two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+  }
+  
+  
+  /* Formulario */
+  
+  .formulario{
+    display: flex;
+    flex-flow: column;
+  }
+  
+  .formulario input, .formulario textarea{
+    margin: .5rem 0;
+    padding: .5rem .2rem;
+  }
+  
+  .formulario button{
+    width: fit-content;
+    border: none;
+    padding: .5rem 1rem;
+    background-color: #ff9100;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.1rem;
+  }
+
+  @media (max-width:640px){
+    .wrap-two-column{
+      grid-template-columns: 1fr;
+    }
+  }

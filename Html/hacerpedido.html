@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Realiza tu pedido</title>
+  <link rel="stylesheet" type="text/css" href="../CSSLANDING/estilopedido.css">
+  <link rel="icon" href="../Logo/loguito">
+</head>
+<body>
+  <form>
+    <h2>Realizar Pedido</h2>
+    <div class="form-group">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+    </div>
+    <div class="form-group">
+      <label for="direccion">Dirección:</label>
+      <input type="text" id="direccion" name="direccion" required>
+    </div>
+    <div class="form-group">
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" required>
+    </div>
+    <div class="form-group">
+      <label>Productos:</label>
+      <div>
+        <input type="checkbox" id="hamburguesa" name="productos[]" value="hamburguesa">
+        <label for="hamburguesa">Hamburguesa</label>
+        <input type="number" id="cantidad-hamburguesa" name="cantidades[]" min="1">
+      </div>
+      <div>
+        <input type="checkbox" id="papas" name="productos[]" value="papas">
+        <label for="papas">Papas fritas</label>
+        <input type="number" id="cantidad-papas" name="cantidades[]" min="1">
+      </div>
+      <!-- Agrega más productos aquí -->
+    </div>
+    <button type="submit">Realizar Pedido</button>
+  </form>
+  
+</body>
+</html>

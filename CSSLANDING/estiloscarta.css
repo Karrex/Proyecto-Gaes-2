@@ -1,0 +1,87 @@
+
+/** Tarjetas Restaurante **/
+html {
+    background: url(../imagenes/MENUNCITO.jpg);
+}
+
+p{
+ color: #e5e5e5 ;
+}
+
+h4{
+    color: #e5e5e5;
+}
+
+h2{
+    color: #ff9100;
+}
+
+.wrap{
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  a {
+    border: none;
+    color: white;
+    font-size: 20px;
+    background: #ff9100;
+    padding: 10px 10px;
+    align-items: center;
+    border-radius: 5px;
+    position: fixed;
+    top: 0;
+    left: 80%;
+    flex-basis: 50%;
+    font-weight: bold;
+}
+
+  
+.column-2.carta{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 3rem;
+  row-gap: 3rem;
+}
+  
+  .plato-carta{
+    display: flex;
+    align-items: center;
+    border: 2px solid #e5e5e5;
+    border-radius: 6px;
+  }
+  
+  .img-plato-carta{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+  }
+  
+  .img-plato-carta img{
+    max-width: 150px;
+    max-height: 150px;
+  }
+  
+  .tittle-plato-carta{
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+    border-top: none;
+    flex-basis: 40%;
+    padding: 0 1rem;
+  }
+  
+  .precio-plato-carta{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+    font-weight: bold;
+    background: #ff9100;
+  }
+
+  /* Responsive de la carta */
+
+  @media (max-width:680px){
+    .column-2.carta{
+      grid-template-columns: repeat(1,1fr);
+    }
+  }

@@ -1,0 +1,74 @@
+html{
+    background: url(../imagenes/MENUNCITO.jpg);
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #ff9100;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  select {
+    appearance: none;
+    background-color: white;
+    background-image: url('images/arrow-down.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 25px;
+  }
+  
+  option {
+    padding: 10px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+  }
+  
+  #selected-products {
+    display: none;
+  }
+  
+  #product-images {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-image {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    background-color: #ff9100;
+    color: white;
+    padding: 0%;
+  }
+  
